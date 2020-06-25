@@ -1,8 +1,8 @@
 /* build stories list here*/
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { axiosWithAuth } from "../utils/axiosWithAuth";
-import DeleteStory from "../actions/DeleteStory";
+// import DeleteStory from "../actions/DeleteStory";
 class StoriesList extends React.Component {
   constructor() {
     super();

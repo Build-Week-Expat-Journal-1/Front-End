@@ -9,7 +9,7 @@ const Login = props => {
         password:""
     });
 
-    const { push, history } = useHistory();
+    const { push } = useHistory();
 
     const onChangeHandler = e => {
         return setCredentials({
